@@ -1,0 +1,25 @@
+w 1800 1000
+
+/Hello! This file has been created to assist you in custom tuning your brand new Space Warthog.
+/Please follow the instructions carefully. As you may have noticed notes are preceded by a '/' and are not processed.
+/The following is a key to the possible options. A template has been created below with the default values.
+/The letters at the beginning of a line determine what it changes please follow the format carefully!
+/Some possible tweaks are percentage changes of the default values instead of absolute values.
+/If both an absolue and a percent value are entered, the percent will be ignored.
+
+/w	Changes the width and height of the display window. Please follow it with two number, a width and a height with a space between.
+/ai	Changes the number of asteroids that spawn at the beginning of the battle. Please follow it with a single number.
+/as	Changes the rate at which asteroids enter the battlefield. Please follow it with a delay time in seconds. (Decimal values are accepted!)
+/tha	Changes the thrust of the Warthog. Please follow it with a thrust value in meters per second^2. (Decimal values are accepted!)
+/th%	Changes the thrust of the Warthog with a multiplier. Please follow it with a decimal multiplier. (e.g. 0.5 for half thrust) Note: Default thrust is ~3.5 m/s^2.
+/tra	Changes the turn rate of the Warthog. Please follow it with an angular velocity value in degrees per second.
+/tr%	Changes the turn rate of the Warthog with a multiplier. Please follow it with a decimal multiplier. (e.g. 0.5 for half turn speed.) Note: Default turn speed is 180 degrees per second
+
+/Template: (Please remove the '/' to activate a line.)
+w 1800 1000
+/ai 5
+/as 1
+/tha 3.5
+/th% 1
+/tra 180
+/tr& 1
